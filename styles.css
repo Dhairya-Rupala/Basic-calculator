@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.calc-body{
+    z-index: 100;
+    box-shadow: 5px 5px 10px grey;
+    margin: 8vh auto 0 auto;
+    width: max-content;
+    border: 1px solid grey;
+}
+
+.screen{
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    font-size: 2rem;
+}
+
+.button-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+.button-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+}
+
+.button-icon:hover{
+    cursor:grabbing;
+    background-color:dimgrey;
+}
